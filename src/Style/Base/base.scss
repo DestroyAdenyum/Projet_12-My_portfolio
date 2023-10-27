@@ -6,7 +6,8 @@ body, html {
     margin: auto;
     min-width: 320px;
     max-width: 1440px;
-    // font-family: $main-font;
+    background-color: $background;
+    font-family: $main-font;
 }
 
 main {

@@ -1,0 +1,32 @@
+.error {
+    @include flex($fdirection: column, $jcontent: center, $alitems: center);
+    gap: 80px;
+    margin-bottom: 20px;
+
+    &__number {
+        width: 597px;
+        height: 263px;
+        font-family: $presentation-font;
+        font-size: 250px;
+        font-weight: 700;
+        color: $font-white-color;
+        text-align: center;
+        margin: 0;
+    };
+    
+    &__text {
+        width: 872px;
+        height: 51px;
+        font-family: $presentation-font;
+        font-size: $font-S36;
+        font-weight: $font-medium;
+        color: $font-white-color;
+        text-align: center
+    };
+    
+    &__nav {
+        color: $font-white-color;
+        text-decoration: underline;
+        margin-bottom: 70px;
+    };
+}

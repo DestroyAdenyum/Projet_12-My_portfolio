@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
     return (
-        <div>
+        <div className="wrapper">
 
         </div>
     )

@@ -1,2 +1,16 @@
+@import "./Utils/variables.scss";
+@import "./Utils/mixins.scss";
+
 @import "./Base/base.scss";
 @import "./Base/fonts.scss";
+
+@import "./Layout/Header.scss";
+@import "./Layout/Footer.scss";
+
+@import "./Components/FormContact.scss";
+
+@import "./Pages/Home.scss";
+@import "./Pages/AboutMe.scss";
+@import "./Pages/Projects.scss";
+@import "./Pages/Contact.scss";
+@import "./Pages/Error.scss";

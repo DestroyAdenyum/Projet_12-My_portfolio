@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
-
-        </div>
+        <footer className="footer">
+            <p className="footer__text">© 2023 LEVITRE Marie-Charlotte. All rights reserved</p>
+        </footer>
     )
 }
 
