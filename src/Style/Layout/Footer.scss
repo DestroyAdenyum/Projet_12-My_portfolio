@@ -1,13 +1,12 @@
 .footer {
-    width: 100%;
-    height: 120px;
-    @include flex ($fdirection: column, $jcontent: center, $alitems: center);
+  width: 100%;
+  height: 115px;
+  @include flex($fdirection: column, $jcontent: center, $alitems: center);
 
-    .footer__text {
-        font-family: $title-font;
-        font-size: $font-S18;
-        font-weight: $font-medium;
-        color: $font-white-color;
-
-    }
+  .footer__text {
+    font-family: $title-font;
+    font-size: $font-S18;
+    font-weight: $font-medium;
+    color: $font-white-color;
+  }
 }

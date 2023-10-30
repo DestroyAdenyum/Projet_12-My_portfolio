@@ -1,0 +1,38 @@
+.collapse__container {
+  @include flex($fdirection: column, $jcontent: center, $alitems: center);
+  width: 100%;
+
+  .collapse__header {
+    @include flex($fdirection: row, $jcontent: space-between, $alitems: center);
+    width: 1024px;
+    height: 52px;
+    background-color: $background-collapse;
+    border-radius: 5px;
+    padding: 10px 20px 10px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .collapse__title {
+      font-size: $font-S24;
+      font-weight: $font-medium;
+      margin: 0;
+    }
+
+    .collapse__arrow {
+      transition: transform 0.5s ease;
+    }
+
+    .collapse__arrow.rotate {
+      transform: rotate(180deg);
+    }
+  }
+
+  .collapse__content {
+    width: 1023px;
+    background-color: $background-collapse;
+    font-size: $font-S18;
+    font-weight: $font-regular;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+  }
+}

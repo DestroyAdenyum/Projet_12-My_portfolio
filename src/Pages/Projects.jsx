@@ -1,11 +1,9 @@
 import React from "react";
 
 function Projects() {
-    return (
-        <div className="wrapper">
+  return <div className="wrapper">
 
-        </div>
-    )
+  </div>;
 }
 
 export default Projects;

@@ -1,29 +1,31 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body, html {
-    margin: auto;
-    min-width: 320px;
-    max-width: 1440px;
-    background-color: $background;
-    font-family: $main-font;
+body,
+html {
+  margin: auto;
+  min-width: 320px;
+  max-width: 1440px;
+  background-color: $background;
+  font-family: $main-font;
+  color: $font-white-color;
 }
 
 main {
-    width: 100%;
+  width: 100%;
 }
 
 .wrapper {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }

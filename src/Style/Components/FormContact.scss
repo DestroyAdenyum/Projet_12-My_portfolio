@@ -1,0 +1,8 @@
+.contact__form {
+  @include flex($fdirection: column, $jcontent: center, $alitems: center);
+  width: 400px;
+
+  .form__group {
+    @include flex($fdirection: column, $jcontent: center, $alitems: center);
+  }
+}
