@@ -13,6 +13,7 @@
     margin-right: 20px;
 
     .collapse__title {
+      font-family: $presentation-font;
       font-size: $font-S24;
       font-weight: $font-medium;
       margin: 0;
@@ -28,11 +29,13 @@
   }
 
   .collapse__content {
-    width: 1023px;
+    width: 1024px;
     background-color: $background-collapse;
+    font-family: $info-font;
     font-size: $font-S18;
     font-weight: $font-regular;
     border-radius: 0 0 5px 5px;
     padding: 15px;
+    margin-top: -5px;
   }
 }

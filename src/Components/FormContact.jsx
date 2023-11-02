@@ -2,27 +2,46 @@ import React from "react";
 
 function FormContact() {
   return (
-    <form id="contact__form">
-      <div className="form__group">
-        <label htmlFor="name">Nom</label>
-        <input type="text" className="form__control" />
-      </div>
-      <div className="form__group">
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          className="form__control"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div className="form__group">
-        <label htmlFor="message">Message</label>
-        <textarea className="form__control" rows="5"></textarea>
-      </div>
-      <button type="submit" className="btn btn-primary">
-        Envoyer
-      </button>
-    </form>
+      <form className="form">
+        <div className="form__col">
+          <div className="form__group">
+            <label>Nom</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div className="form__col">
+          <div className="form__group">
+            <label>Prénom</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div className="form__col">
+          <div className="form__group">
+            <label>Email</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div className="form__col">
+          <div className="form__group">
+            <label>Téléphone</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div className="form__col">
+          <div className="form__group">
+            <label>Message</label>
+            <textarea></textarea>
+          </div>
+        </div>
+
+        <div className="form__col button">
+          <input type="submit" value="Envoyer" />
+        </div>
+      </form>
   );
 }
 

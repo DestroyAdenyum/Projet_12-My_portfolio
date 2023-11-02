@@ -1,0 +1,17 @@
+.flex-column{
+    display:flex;
+    flex-flow:column;
+}
+
+.center {
+    align-items:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.list {
+    border-radius:3px;
+    overflow:hidden;
+}
