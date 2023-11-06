@@ -1,6 +1,9 @@
+.projects{
+    height: 670px;
+}
+
 .flex-column{
-    display:flex;
-    flex-flow:column;
+    @include flex($fdirection: column);
 }
 
 .center {
@@ -14,4 +17,5 @@
 .list {
     border-radius:3px;
     overflow:hidden;
+    gap: 20px;
 }

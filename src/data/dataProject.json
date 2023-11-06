@@ -1,0 +1,69 @@
+[
+    {
+        "id": 0,
+        "title" : "Ohmyfood",
+        "description": "Créer le portfolio dynamique d'une architecte d'intérieur avec JavaScript",
+        "text":"",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "SASS"
+        ], 
+        "github": "https://github.com/DestroyAdenyum/Projet_4-Ohmyfood.git"
+
+    },
+    {
+        "id": 1,
+        "title" : "Sophie Bluel",
+        "description": "Créer le portfolio dynamique d'une architecte d'intérieur avec JavaScript",
+        "text":"",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "JS"
+        ],
+        "github":"https://github.com/DestroyAdenyum/projet_6-portfolio_bluel.git"
+    },
+    {
+        "id": 2,
+        "title": "Kasa",
+        "description": "Refaire le site d'une agence de location d'appartement, codé il y a plus de 10 ans, en REACT et SASS",
+        "text":"",
+        "skills": [
+            "REACT",
+            "SASS"
+        ],
+        "github":"https://github.com/DestroyAdenyum/projet_8-kasa.git"
+    },
+    {
+        "id": 3,
+        "title": "Nina Carducci",
+        "description": "Optimiser le référencement d'un site d'une photographe",
+        "text":"",
+        "skills": [
+            "SEO"
+        ],
+        "github":"https://github.com/DestroyAdenyum/Projet_9-NinaCarducci.git"
+    },
+    {
+        "id": 4,
+        "title": "724Events",
+        "description": "Débugger le site d'une agence d'événementiel",
+        "text":"",
+        "skills": [
+            "JREST"
+        ],
+        "github":"https://github.com/DestroyAdenyum/Projet_10-724events.git"
+    },
+    {
+        "id": 5,
+        "title": "ArgentBank",
+        "description": "Implémenter le front-end d'une application bancaire avec React et Redux",
+        "text":"",
+        "skills": [
+            "REACT",
+            "REDUX"
+        ],
+        "github":"https://github.com/DestroyAdenyum/Projet_11-ArgentBank.git"
+    }
+]
