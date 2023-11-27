@@ -4,15 +4,20 @@
 @import "./Base/base.scss";
 @import "./Base/fonts.scss";
 
-@import "./Layout/Header.scss";
 @import "./Layout/Footer.scss";
+@import "./Layout/Header.scss";
 
 @import "./Components/Achievement.scss";
+@import "./Components/AchievementAssignments.scss";
+@import "./Components/AchievementModal.scss";
+@import "./Components/AchievementSkills.scss";
 @import "./Components/Collapse.scss";
 @import "./Components/FormContact.scss";
+@import "./Components/Navbar.scss";
+@import "./Components/NavbarModal.scss";
 
-@import "./Pages/Home.scss";
 @import "./Pages/AboutMe.scss";
-@import "./Pages/Projects.scss";
 @import "./Pages/Contact.scss";
 @import "./Pages/Error.scss";
+@import "./Pages/Home.scss";
+@import "./Pages/Projects.scss";

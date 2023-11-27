@@ -4,7 +4,7 @@
 
   .collapse__header {
     @include flex($fdirection: row, $jcontent: space-between, $alitems: center);
-    width: 1024px;
+    width: 90%;
     height: 52px;
     background-color: $background-collapse;
     border-radius: 5px;
@@ -29,7 +29,7 @@
   }
 
   .collapse__content {
-    width: 1024px;
+    width: 90%;
     background-color: $background-collapse;
     font-family: $info-font;
     font-size: $font-S18;

@@ -1,0 +1,116 @@
+.Navbar {
+
+  ul {
+    @include flex($fdirection: row, $alitems: center);
+    gap: 55px;
+
+    @include tablet {
+      display: none;
+    }
+
+    @include phone {
+      display: none;
+    }
+
+    li {
+      font-family: $title-font;
+      font-size: $font-S18;
+      font-weight: $font-medium;
+
+      @include tablet {
+        display: none;
+      }
+
+      @include phone {
+        display: none;
+      }
+
+      a {
+        color: $font-white-color;
+
+        @include tablet {
+          display: none;
+        }
+
+        @include phone {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @include tablet {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 0;
+
+    &.open {
+      position: relative;
+      top: 0;
+    }
+  }
+}
+
+.menu-icon {
+  display: none; // Cachez l'icône du menu burger par défaut
+
+  @include flex($fdirection: column, $alitems: center);
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: $font-white-color;
+    margin: 5px 0;
+  }
+
+  &.open {
+    .bar {
+      display: none;
+    }
+  }
+
+  @include tablet {
+    display: flex;
+  }
+
+  // Cachez l'icône sur les écrans plus larges et tablettes
+  @media screen and (min-width: $min-tablet) {
+    display: none;
+  }
+}
+
+@include tablet {
+  .Navbar {
+    .menu-icon {
+      display: flex;
+    }
+    ul {
+      display: none;
+    }
+
+    &.open {
+      ul {
+        display: flex;
+      }
+    }
+  }
+}
+
+@include phone {
+  .Navbar {
+    .menu-icon {
+      display: flex;
+    }
+
+    ul {
+      display: none;
+    }
+
+    &.open {
+      ul {
+        display: flex;
+      }
+    }
+  }
+}

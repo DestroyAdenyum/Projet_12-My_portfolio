@@ -6,6 +6,11 @@
   grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
   grid-gap: 30px;
 
+  @include phone {
+    @include flex($fdirection: column);
+    gap: 20px;
+  }
+
   .form__col.button {
     margin-top: 60px;
   }
@@ -40,7 +45,7 @@
       textarea {
         position: absolute;
         width: 90%;
-        height: 70px;
+        height: 100px;
         background: transparent;
         outline: none;
         font-family: $info-font;
@@ -88,6 +93,10 @@
       font-weight: 700;
       border-radius: 45px;
       transition: all 0.4s;
+
+      @include phone {
+        margin-top: 40px;
+      }
 
       &:hover {
         border: 5px solid rgba(255, 255, 255, 1);

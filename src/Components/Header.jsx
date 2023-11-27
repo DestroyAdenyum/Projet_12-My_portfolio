@@ -1,30 +1,14 @@
 import React from "react";
-import { NavLink } from "react-router-dom/dist";
+
+import Navbar from "../Components/Navbar"
+
+import Logo from "../Assets/Logo/LMCtest.webp";
 
 function Header() {
   return (
     <header className="header">
-      <div className="header__logo">
-        <NavLink to="/">
-          <h1>Hello world !</h1>
-        </NavLink>
-      </div>
-      <nav>
-        <ul className="header__links">
-          <li>
-            <NavLink to="/">Accueil</NavLink>
-          </li>
-          <li>
-            <NavLink to="/AboutMe">Fiche personnage</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Projects">Quêtes / Haut faits</NavLink>
-          </li>
-          <li>
-            <NavLink to="/Contact">Contact</NavLink>
-          </li>
-        </ul>
-      </nav>
+        <img className="logo" src={Logo} alt="Logo LEVITRE Marie-Charlotte" />
+      <Navbar />
     </header>
   );
 }

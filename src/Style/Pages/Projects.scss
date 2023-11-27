@@ -1,21 +1,23 @@
-.projects{
-    height: 670px;
-}
+.projects {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
 
-.flex-column{
-    @include flex($fdirection: column);
-}
+  @include tablet {
+    width: 90%;
+    margin-top: 68px;
+    margin-bottom: 0;
+  }
 
-.center {
-    align-items:center;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-}
+  .projects__title {
+    text-align: center;
+    font-family: $title-font;
+  }
 
-.list {
-    border-radius:3px;
-    overflow:hidden;
+  .achievements {
+    @include flex($fdirection: column, $jcontent: center, $alitems: center);
     gap: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
 }

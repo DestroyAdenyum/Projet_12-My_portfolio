@@ -2,14 +2,38 @@ import React from "react";
 
 import Collapse from "../Components/Collapse"; 
 
-import LCPicAboutMe from "../Assets/Pictures/lc-picture.png";
+import PicAboutMe from "../Assets/Pictures/LMC_dessin.webp";
+
+import dataSkills from "../data/dataSkills.json";
 
 function AboutMe() {
+  const { skills } = dataSkills;
+
+  const generateSkillsList = (skills) => (
+    <ul>
+      {skills.map((skill) => (
+        <li key={skill.id}>
+          {skill.name}
+          <div className="progress">
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{ width: `${skill.progress}%` }}
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+
   return <div className="wrapper aboutme">
-    <h2>Fiche du personnage</h2>
+    <h1>Fiche du personnage</h1>
     <section className="aboutme__presentation">
       <div className="aboutme__picture">
-        <img className="pictureofme" src={LCPicAboutMe} alt="Lara Croft" />
+        <img className="pictureofme" src={PicAboutMe} alt="Portrait de LEVITRE Marie-Charlotte" />
       </div>
       <div className="aboutme__details">
         <p>Nom :</p>
@@ -23,14 +47,27 @@ function AboutMe() {
     <section className="aboutme__skills">
       <Collapse
         title='Compétences'
-        text='HTML5
-        CSS
-        SASS
-        Javascript
-        REACT
-        REDUX
-        SEO
-        Gestion de projet '
+        text={generateSkillsList(skills)}
+      />
+    </section>
+    <section className="aboutme__softskills">
+      <Collapse
+        title='Soft Skills'
+        text={
+          <ul>
+            <li>Autonome</li>
+            <li>Travail d'équipe</li>
+            <li>Confiance</li>
+            <li>Respect</li>
+            <li>Flexibilité et adaptabilité</li>
+            <li>Curiosité</li>
+            <li>Créativité</li>
+            <li>Minutieuse</li>
+            <li>Empathie</li>
+            <li>Mémoire</li>
+            <li>Humour</li>
+          </ul>
+        }
       />
     </section>
     <section className="aboutme__story">
@@ -51,6 +88,15 @@ function AboutMe() {
               </p>
               <p>Mais, un jour, j'ai décidé que mon parcours devait évoluer. J'ai laissé derrière 
                 moi le monde des gardiens pour m'immerger dans l'univers du développement web.
+              </p>
+              <p>En tant que développeuse, je mets en avant une compétence inestimable : mon courage 
+                en face des défis. Telle une héroïne intrépide, je ne plie pas devant l'adversité, mais 
+                je m'en remets à de puissants alliés virtuels tels que Google, les forums de développeurs
+                et mon fidèle compagnon ChatGPT pour déjouer les embûches qui se dressent sur mon chemin. 
+                Mon épée numérique est mon code, affûtée par l'apprentissage continu, et chaque site web 
+                que je crée est une quête héroïque accomplie. Tout comme une aventurière je m'efforce de 
+                devenir la légendaire développeuse capable de surmonter tous les obstacles dans cet univers 
+                épique du développement web.
               </p>
               <p>Chaque projet réalisé au cours de cette formation a été une étape de ma 
                 progression, un combat remporté dans cette aventure. Chaque ligne de code a 

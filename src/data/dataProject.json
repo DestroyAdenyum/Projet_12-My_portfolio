@@ -1,69 +1,85 @@
 [
-    {
-        "id": 0,
-        "title" : "Ohmyfood",
-        "description": "Créer le portfolio dynamique d'une architecte d'intérieur avec JavaScript",
-        "text":"",
-        "skills": [
-            "HTML5",
-            "CSS3",
-            "SASS"
-        ], 
-        "github": "https://github.com/DestroyAdenyum/Projet_4-Ohmyfood.git"
-
-    },
-    {
-        "id": 1,
-        "title" : "Sophie Bluel",
-        "description": "Créer le portfolio dynamique d'une architecte d'intérieur avec JavaScript",
-        "text":"",
-        "skills": [
-            "HTML5",
-            "CSS3",
-            "JS"
-        ],
-        "github":"https://github.com/DestroyAdenyum/projet_6-portfolio_bluel.git"
-    },
-    {
-        "id": 2,
-        "title": "Kasa",
-        "description": "Refaire le site d'une agence de location d'appartement, codé il y a plus de 10 ans, en REACT et SASS",
-        "text":"",
-        "skills": [
-            "REACT",
-            "SASS"
-        ],
-        "github":"https://github.com/DestroyAdenyum/projet_8-kasa.git"
-    },
-    {
-        "id": 3,
-        "title": "Nina Carducci",
-        "description": "Optimiser le référencement d'un site d'une photographe",
-        "text":"",
-        "skills": [
-            "SEO"
-        ],
-        "github":"https://github.com/DestroyAdenyum/Projet_9-NinaCarducci.git"
-    },
-    {
-        "id": 4,
-        "title": "724Events",
-        "description": "Débugger le site d'une agence d'événementiel",
-        "text":"",
-        "skills": [
-            "JREST"
-        ],
-        "github":"https://github.com/DestroyAdenyum/Projet_10-724events.git"
-    },
-    {
-        "id": 5,
-        "title": "ArgentBank",
-        "description": "Implémenter le front-end d'une application bancaire avec React et Redux",
-        "text":"",
-        "skills": [
-            "REACT",
-            "REDUX"
-        ],
-        "github":"https://github.com/DestroyAdenyum/Projet_11-ArgentBank.git"
-    }
+  {
+    "id": 0,
+    "title": "Ohmyfood",
+    "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+    "assignments": [
+      "Intégrer une maquette en mobile-first",
+      "Mettre en œuvre des animations CSS",
+      "Versionner son projet avec Git et Github"
+    ],
+    "skills": ["HTML5", "CSS3", "SASS", "GIT", "GITHUB"],
+    "github": "https://github.com/DestroyAdenyum/Projet_4-Ohmyfood.git",
+    "picture": "https://i.ibb.co/xz3p51j/ohmyfood.webp",
+    "text": "Au sein de l'épopée d'Ohmyfood, en tant que développeur junior, je suis appelé à façonner une expérience culinaire numérique. Intégré à cette start-up ambitieuse, mon périple commence par la création d'un site mobile first révolutionnaire. Avec ma clavier comme baguette magique, je vais donner vie aux maquettes mobile et desktop conçues par l'UX designer. \nLe terrain est préparé avec des restaurants partenaires déjà convaincus, et la mission est claire : élaborer quatre menus délicieux avec une touche de magie grâce à des animations sophistiquées. Paul, le visionnaire, m'a confié les maquettes, le prototype dans Figma, et l'attente impatiente de voir le projet final. \nGuidé par le brief créatif, je m'apprête à traduire la vision en réalité fonctionnelle. Le site doit être responsive, offrant une expérience utilisateur optimale sur mobile. Mon défi est d'expliquer clairement la mécanique des animations pour susciter l'admiration de l'équipe. Que le festin virtuel commence, et que chaque ligne de code soit une saveur nouvelle dans le monde numérique d'Ohmyfood.",
+    "site": "https://destroyadenyum.github.io/Projet_4-Ohmyfood/"
+  },
+  {
+    "id": 1,
+    "title": "Sophie Bluel",
+    "description": "Créer le portfolio dynamique d'une architecte d'intérieur avec JavaScript",
+    "assignments": [
+      "Gérer les événements utilisateurs avec JavaScript",
+      "Manipuler les éléments du DOM avec JavaScript",
+      "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+    ],
+    "skills": ["HTML5", "CSS3", "JS"],
+    "github": "https://github.com/DestroyAdenyum/projet_6-portfolio_bluel.git",
+    "picture": "https://i.ibb.co/mCMDYWJ/sophie-bluel.webp",
+    "text": "Au sein de l'agence ArchiWebos, je m'élève en tant que développeur front-end, prêt à ajouter ma touche à l'épopée du design. Mon voyage commence en renfort d'une équipe passionnée travaillant sur le site portfolio d'une architecte d'intérieur. Armé du Figma, du code back-end, et du Kanban comme cartes célestes, je me prépare à sculpter l'avenir numérique. \nLe dessein ? Façonner la page de présentation des œuvres de l'architecte, éveiller la page de connexion du maître du site, et invoquer la modale permettant l'ascension de nouveaux médias. Tel un héros du code, chaque ligne que j'écris devient une pierre angulaire dans la construction de ce monde digital. \nGuidé par la réunion et les mots encourageants, je me lance dans cette quête numérique. Les défis sont posés, mais avec le Figma comme épée, le code comme armure, et le Kanban comme boussole, je suis prêt à forger l'avenir architectural. Que cette aventure commence, et que le code résonne comme une symphonie dans l'univers virtuel."
+  },
+  {
+    "id": 2,
+    "title": "Kasa",
+    "description": "Refaire le site d'une agence de location d'appartement en REACT et SASS",
+    "assignments": [
+      "Mettre en œuvre des animations CSS",
+      "Développer une interface web avec Sass",
+      "Configurer la navigation entre les pages de l'application avec React Router",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React",
+      "Initialiser une application avec Create React App"
+    ],
+    "skills": ["HTML5", "REACT", "SASS"],
+    "github": "https://github.com/DestroyAdenyum/projet_8-kasa.git",
+    "picture": "https://i.ibb.co/zHLptG4/Kasa.webp",
+    "text": "Enrôlé par Kasa, pionnier de la location entre particuliers, je m'attelle en tant que développeur front-end à une quête colossale : redonner vie à la plateforme vieillissante et façonner le nouveau visage de Kasa en migrant vers une stack JavaScript avec NodeJS et React. \nArmée des maquettes Figma et d'un artefact JSON, je bâtis un front-end résilient malgré l'absence d'un magicien back-end. \nLe second acte commence avec l'arrivée de Paul, maître des designs. Les maquettes Figma dévoilent un univers visuel exquis, chaque composant logique délivrant une puissance à intégrer. Entre les lignes de code, je découvre les nuances des galleries d'images dansantes et des collapses mystiques, éléments clés de la renaissance de Kasa. \nMon clavier devient l'épée de cette odyssée, chaque ligne de code une incantation. Que l'aventure dévoile la magie du développement, que Kasa renaisse dans un éclat numérique."
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "description": "Optimiser le référencement d'un site d'une photographe",
+    "assignments": ["Optimiser la performance d'un site web"],
+    "skills": ["HTML5", "CSS3", "JS", "SEO"],
+    "github": "https://github.com/DestroyAdenyum/Projet_9-NinaCarducci.git",
+    "picture": "https://i.ibb.co/N79zKqZ/Nina-carducci.webp",
+    "text": "Mon périple dans le royaume du SEO débute par une prospection audacieuse. Ayant repéré le site de la talentueuse photographe Nina Carducci, j'ai délivré une missive offrant mes services d'optimisation. Impressionnée par l'audit détaillé que je lui ai partagé, Nina a accueilli favorablement ma proposition. \nNotre alliance scellée lors d'une réunion téléphonique, la mission se dessine. Je suis désigné pour orchestrer une optimisation complète, alliant performances et SEO. Le référencement local, tel un phare, s'érigera grâce à Schema.org, les métas des réseaux sociaux brilleront, et l'accessibilité du site sera réinventée. \nLe code, désormais entre mes mains, est modelé avec soin. Chaque ligne est devenu un instrument de transformation. Nina, la photographe au talent éclatant, m'a confié son adresse et son numéro, secrets du référencement local. Avec ces éléments, j'ai sculpté une œuvre numérique qui propulsera son site vers de nouveaux horizons.",
+    "site": "https://destroyadenyum.github.io/Projet_9-NinaCarducci/"
+  },
+  {
+    "id": 4,
+    "title": "724Events",
+    "description": "Débugger le site d'une agence d'événementiel",
+    "assignments": [
+      "Débugger un site web grâce aux Chrome DevTools",
+      "Rédiger un cahier de recette pour tester un site"
+    ],
+    "skills": ["HTML5", "CSS3", "REACT", "JREST"],
+    "github": "https://github.com/DestroyAdenyum/Projet_10-724events.git",
+    "picture": "https://i.ibb.co/8m0Jzxd/724event.webp",
+    "text": "Engagée par l'agence événementielle 724events, j'ai résolu les énigmes laissées par un développeur disparu, afin de finaliser la création de leur site vitrine. Un défi attendu dans les lignes de code, un héritage à déchiffrer. La première étape, établir mon campement dans un environnement de développement robuste. Node.js, Yarn, React, tout doit être aligné. \nLa quête se poursuit avec l'installation des React Developer Tools, des instruments magiques pour scruter chaque recoin du royaume React. L'arbre des composants s'offre à moi, révélant les mystères du Slider et d'autres artefacts bogués. L'étape cruciale de la réparation débute. \nLa liste des bugs en main, les tests en échec en ligne de mire, je me suis engagée dans la bataille pour rendre au site son intégrité. Mon clavier danse entre les lignes, chaque correction apportant une victoire sur les bugs. \nLe cahier de recette devient ma dernière épreuve. Chaque scénario, chaque étape, doit être validé. La symphonie du code atteint son apogée, l'application répond aux besoins du client. Projet terminé, l'agence 724events peut dévoiler fièrement son site vitrine, réparé et prêt à illuminer le monde des événements."
+  },
+  {
+    "id": 5,
+    "title": "ArgentBank",
+    "description": "Implémenter le front-end d'une application bancaire avec React et Redux",
+    "assignments": [
+      "Afficher les données du back end sur l'interface via des appels API",
+      "Configurer des routes API pour la communication client / serveur",
+      "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+    ],
+    "skills": ["HTML5", "CSS3", "REACT", "REDUX"],
+    "github": "https://github.com/DestroyAdenyum/Projet_11-ArgentBank.git",
+    "picture": "https://i.ibb.co/R2bHVpr/Argentbank.webp",
+    "text": "Dans l'épopée d'Argent Bank, je me trouve à la croisée des chemins, travaillant sur le développement du système d'authentification des utilisateurs. La mission est claire : créer une application web React responsive, intégrant Redux pour gouverner le royaume du state. \nLa phase 1 résonne de défis : page d'accueil, connexion, profil. L'utilisateur, peut se connecter, se déconnecter, et contempler les secrets de son profil après une connexion réussie. Mon arsenal comprend GitHub, Redux, et la sagesse des modèles d'Issues pour tracer mon chemin. Les routes API, forgées par nos ingénieurs back-end, attendent d'être parcourues. L'optimisation, telle une quête du Graal, guide mon épée de développeur. Images et code se plient aux bonnes pratiques du Green Code, prêts à défier le chaos. \nLa phase 2 : Transactions. Les contours de cette étape émergent, et la tribu cherche mon avis sur les routes API back-end. Telle une plume écrivant le futur, je modèle les routes Swagger, décrivant chaque endpoint avec la précision d'une carte au trésor. Les transactions, vues, détails, modifications, prennent forme dans ce parchemin numérique. \nLe vent souffle les promesses de revues de code, de discussions sur nos choix. L'horizon s'illumine, nous invitant à sculpter ensemble le destin d'Argent Bank. Une collaboration héroïque se profile, où chaque ligne de code devient un pas vers la réussite. L'aventure continue, et le code résonne dans les couloirs numériques d'Argent Bank."
+  }
 ]

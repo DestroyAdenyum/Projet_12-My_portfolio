@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Toparrow from "../Assets/Icons/Top_Arrow.png";
+import Toparrow from "../Assets/Icons/Top_Arrow.webp";
 
 function Collapse({ title, text }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ function Collapse({ title, text }) {
 
   return (
     <div className="collapse__container">
-      <div className="collapse__header">
+      <div className="collapse__header" onClick={toggleCollapse}>
         <h3 className="collapse__title">{title}</h3>
         <img
           className={`collapse__arrow ${isOpen ? "rotate" : ""}`}

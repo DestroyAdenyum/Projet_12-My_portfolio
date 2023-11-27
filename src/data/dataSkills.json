@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "progress": 90
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "progress": 90
+    },
+    {
+      "id": 3,
+      "name": "SASS",
+      "progress": 70
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "progress": 40
+    },
+    {
+      "id": 5,
+      "name": "REACT",
+      "progress": 60
+    },
+    {
+      "id": 6,
+      "name": "REDUX",
+      "progress": 60
+    },
+    {
+      "id": 7,
+      "name": "SEO",
+      "progress": 75
+    },
+    {
+      "id": 8,
+      "name": "Gestion de projet",
+      "progress": 80
+    }
+  ]
+}

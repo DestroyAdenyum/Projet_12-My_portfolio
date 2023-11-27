@@ -1,16 +1,69 @@
 .contact {
   width: 70%;
-  padding: 30px 90px 50px 90px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px 80px;
   border: 6px solid rgba(0, 0, 0, 0.3);
   box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
   border-radius: 50px;
   position: relative;
-}
 
-  .contact__title {
+  @include tablet {
+    width: 90%;
+    padding: 20px;
+  }
+
+  @include phone {
+    width: 90%;
+    margin-top: 60px;
+    padding: 20px;
+  }
+
+  .contact__title,
+  .social__title {
     color: rgba(0, 0, 0, 0.3);
     font-family: $title-font;
     color: $font-white-color;
     text-align: center;
   }
 
+  .social {
+    margin-top: 30px;
+
+    @include tablet {
+      margin-top: 50px;
+    }
+
+    @include phone {
+      margin-top: 20px;
+    }
+
+    .social__title {
+      font-size: $font-S18;
+      font-weight: $font-regular;
+    }
+
+    .social__list {
+      text-align: center;
+	    margin: 0 auto;
+
+      @include tablet {
+        padding: 0;
+      }
+
+      @include phone {
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+	      margin-right: 20px;
+
+        a i {
+          color: #fff;
+          font-size:20px;
+        }
+      }
+    }
+  }
+}

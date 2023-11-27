@@ -19,12 +19,19 @@ function Projects() {
  
   return (
     <div className="wrapper projects">
-      <div class='center list flex-column'>
+      <h1 className="projects__title">Hauts-Faits</h1>
+      <div className='achievements'>
         {dataProject.map((data, id) => (
               <Achievement 
                 key={id}
                 title={data.title}
                 description={data.description}
+                skills={data.skills}
+                assignments={data.assignments}
+                github={data.github}
+                picture={data.picture}
+                text={data.text}
+                site={data.site}
                 isOpen={id === openAchievementIndex}
                 onAchievementClick={() => handleAchievementClick(id)}
               />

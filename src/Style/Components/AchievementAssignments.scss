@@ -1,0 +1,19 @@
+.assignments {
+  @include flex($fdirection: column, $alitems: center);
+  height: auto;
+  padding: 0;
+
+  .assignments__list {
+    width: 400px;
+  
+    @include phone {
+      width: 300px;
+      height: 20px;
+    }
+
+    .assignment {
+      padding-top: 10px;
+    }
+  }
+}
+
