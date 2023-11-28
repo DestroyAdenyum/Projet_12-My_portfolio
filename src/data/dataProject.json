@@ -63,7 +63,7 @@
       "Débugger un site web grâce aux Chrome DevTools",
       "Rédiger un cahier de recette pour tester un site"
     ],
-    "skills": ["HTML5", "CSS3", "REACT", "JREST"],
+    "skills": ["HTML5", "CSS3", "REACT", "JEST"],
     "github": "https://github.com/DestroyAdenyum/Projet_10-724events.git",
     "picture": "https://i.ibb.co/8m0Jzxd/724event.webp",
     "text": "Engagée par l'agence événementielle 724events, j'ai résolu les énigmes laissées par un développeur disparu, afin de finaliser la création de leur site vitrine. Un défi attendu dans les lignes de code, un héritage à déchiffrer. La première étape, établir mon campement dans un environnement de développement robuste. Node.js, Yarn, React, tout doit être aligné. \nLa quête se poursuit avec l'installation des React Developer Tools, des instruments magiques pour scruter chaque recoin du royaume React. L'arbre des composants s'offre à moi, révélant les mystères du Slider et d'autres artefacts bogués. L'étape cruciale de la réparation débute. \nLa liste des bugs en main, les tests en échec en ligne de mire, je me suis engagée dans la bataille pour rendre au site son intégrité. Mon clavier danse entre les lignes, chaque correction apportant une victoire sur les bugs. \nLe cahier de recette devient ma dernière épreuve. Chaque scénario, chaque étape, doit être validé. La symphonie du code atteint son apogée, l'application répond aux besoins du client. Projet terminé, l'agence 724events peut dévoiler fièrement son site vitrine, réparé et prêt à illuminer le monde des événements."
