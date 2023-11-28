@@ -14,13 +14,14 @@ function AboutMe() {
       {skills.map((skill) => (
         <li key={skill.id}>
           {skill.name}
-          <div className="progress">
+          <div className={`progress progress-${skill.progress}`}>
             <div
               className="progress-bar"
               role="progressbar"
               style={{ width: `${skill.progress}%` }}
               aria-valuemin="0"
               aria-valuemax="100"
+              aria-valuenow={skill.progress}
             >
             </div>
           </div>
@@ -55,16 +56,15 @@ function AboutMe() {
         title='Soft Skills'
         text={
           <ul>
-            <li>Autonome</li>
+            <li>Autonomie</li>
             <li>Travail d'équipe</li>
-            <li>Confiance</li>
-            <li>Respect</li>
             <li>Flexibilité et adaptabilité</li>
+            <li>Mémoire</li>
             <li>Curiosité</li>
             <li>Créativité</li>
-            <li>Minutieuse</li>
+            <li>Minutie</li>
+            <li>Confiance</li>
             <li>Empathie</li>
-            <li>Mémoire</li>
             <li>Humour</li>
           </ul>
         }
