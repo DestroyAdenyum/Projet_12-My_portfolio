@@ -1,4 +1,4 @@
-.Modal {
+.modal {
   @include flex($fdirection: column, $jcontent: flex-start);
   position: fixed;
   top: 50%;
@@ -18,7 +18,7 @@
     left: 50%;
   }
 
-  .modal__menu {
+  &__menu {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -42,7 +42,7 @@
       text-decoration: none;
       font-family: $title-font;
       color: $font-white-color;
-      font-size: 18px;
+      font-size: $font-S18;
       display: block;
       padding: 10px;
       transition: background-color 0.3s;
@@ -54,7 +54,7 @@
     }
   }
 
-  .modal__social {
+  &__social {
     margin-bottom: none;
     margin: 0 auto;
     padding: 0;
@@ -71,7 +71,7 @@
       text-decoration: none;
       font-family: $title-font;
       color: $font-white-color;
-      font-size: 18px;
+      font-size: $font-S18;
     }
   }
 

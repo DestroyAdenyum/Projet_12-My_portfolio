@@ -11,7 +11,7 @@ function Collapse({ title, text }) {
   }
 
   return (
-    <div className="collapse__container">
+    <div className="collapse">
       <div className="collapse__header" onClick={toggleCollapse}>
         <h3 className="collapse__title">{title}</h3>
         <img

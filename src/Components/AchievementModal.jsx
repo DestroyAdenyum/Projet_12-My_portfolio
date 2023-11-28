@@ -29,7 +29,7 @@ function AchievementModal({ picture, title, text, site }) {
             <Modal
                 isOpen={isModalOpen}
                 onRequestClose={closeModal}
-                className="modal-content"
+                className="achievementmodal"
             >
                 <button className="achievementmodal__button close" onClick={closeModal}>Fermer</button>
                 <div className="achievementmodal__text">{renderParagraphs(text)}</div>

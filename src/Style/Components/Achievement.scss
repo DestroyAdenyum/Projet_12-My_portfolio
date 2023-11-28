@@ -27,7 +27,7 @@
     min-width: 200px;
     height: auto;
     padding: 0px 30px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     font-weight: bold;
 
     @include phone {
@@ -44,7 +44,7 @@
 
     & .description {
       font-family: $font-book-text;
-      font-size: 12px;
+      font-size: $font-S12;
       font-weight: normal;
       color: $font-black-color;
       padding-bottom: 5px;
@@ -60,7 +60,7 @@
     height: 0px;
     overflow: hidden;
     width: 200px;
-    font-size: 12px;
+    font-size: $font-S12;
     color: $font-black-color;
     font-weight: normal;
 
@@ -91,7 +91,7 @@
   .members {
     transition: all 0.1s;
     padding: 40px;
-    font-family: 'Montserrat';
+    font-family: $main-font;
     color: #CCC;
     background-color: lighten($background-book,5%);
 

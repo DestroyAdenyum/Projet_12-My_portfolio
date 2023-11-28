@@ -8,7 +8,7 @@ function NavbarModal({ isOpen, closeModal }) {
       isOpen={isOpen}
       onRequestClose={closeModal}
       contentLabel="Menu Modal"
-      className="Modal"
+      className="modal"
       overlayClassName="Overlay"
     >
       <ul className="modal__menu">

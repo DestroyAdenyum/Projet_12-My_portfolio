@@ -1,8 +1,8 @@
-.collapse__container {
+.collapse {
   @include flex($fdirection: column, $jcontent: center, $alitems: center);
   width: 100%;
 
-  .collapse__header {
+  &__header {
     @include flex($fdirection: row, $jcontent: space-between, $alitems: center);
     width: 90%;
     height: 52px;
@@ -28,7 +28,7 @@
     }
   }
 
-  .collapse__content {
+  &__content {
     width: 90%;
     background-color: $background-collapse;
     font-family: $info-font;

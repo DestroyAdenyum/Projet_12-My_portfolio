@@ -1,4 +1,4 @@
-.modal-content {
+.achievementmodal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -23,7 +23,7 @@
     transition: all 0.1s;
   }
 
-  .achievementmodal__text {
+  &__text {
     font-family: $font-book-text;
     font-size: $font-S18;
     color: $font-white-color;
@@ -33,7 +33,7 @@
     }
   }
 
-  .achievementmodal__picture {
+  &__picture {
     width: 100%;
     height: auto;
     padding-top: 40px;

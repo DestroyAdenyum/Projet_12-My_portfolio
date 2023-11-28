@@ -4,7 +4,7 @@
   height: 110px;
   background-color: $background-book;
 
-  .footer__text {
+  &__text {
     font-family: $title-font;
     font-size: $font-S18;
     font-weight: $font-medium;

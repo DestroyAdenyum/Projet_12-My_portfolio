@@ -3,7 +3,7 @@
   height: auto;
   padding: 0;
 
-  .assignments__list {
+  &__list {
     width: 400px;
   
     @include phone {

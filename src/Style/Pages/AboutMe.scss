@@ -12,7 +12,7 @@
     margin-bottom: 20px;
   }
 
-  .aboutme__presentation {
+  &__presentation {
     @include flex($fdirection: row, $jcontent: center, $alitems: center);
     gap: 50px;
     margin-top: 40px;
@@ -25,7 +25,7 @@
     .aboutme__picture {
       width: 400px;
       height: 400px;
-      border: 5px solid white;
+      border: 5px solid $font-white-color;
       border-radius: 10px 30px 0px 90px;
       box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
 
@@ -45,7 +45,7 @@
       }
     }
 
-    .aboutme__details {
+    &__details {
       width: 400px;
 
       @include phone {
@@ -72,12 +72,12 @@
     }
   }
 
-  .aboutme__skills,
-  .aboutme__softskills {
+  &__skills,
+  &__softskills {
     margin-bottom: 20px;
   }
 
-  .aboutme__skills {
+  &__skills {
     .progress {
       overflow: visible;
       height: 25px;
@@ -106,7 +106,7 @@
     }
   }
 
-  .aboutme__softskills ul {
+  &__softskills ul {
     columns: 2;
     column-gap: 20px;
 
