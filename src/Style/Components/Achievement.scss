@@ -15,7 +15,7 @@
   @include phone {
     @include flex($fdirection: column, $jcontent: space-between, $alitems: center);
     min-width: 300px;
-    width: 100%;
+    width: 90%;
     min-height: 240px;
     max-height: 700px;
     text-align: center;
@@ -144,7 +144,7 @@
     height: auto;
 
     @include phone {
-      width: 100%;
+      width: 90%;
       min-width: 300px;
     }
 
